@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_recharge"
+            android:icon="@drawable/ic_menu_recharge"
+            android:title="@string/add_balance" />
+
+        <item
+            android:id="@+id/nav_trans_search"
+            android:icon="@drawable/ic_menu_trans_search"
+            android:title="@string/cash_summary" />
+
+        <item
+            android:id="@+id/nav_ledger_view"
+            android:icon="@drawable/ic_menu_trans_search"
+            android:title="@string/ac_ledger"
+            android:iconTint="@color/colorPrimary"/>
+
+        <item
+            android:id="@+id/nav_credit_debit_note"
+            android:icon="@drawable/ic_menu_trans_search"
+            android:title="@string/credit_debit_note"
+            android:iconTint="@color/colorPrimary"/>
+
+        <item
+            android:id="@+id/nav_purchase_user"
+            android:icon="@drawable/ic_menu_trans_search"
+            android:title="@string/purchase_user" />
+
+        <item
+            android:id="@+id/nav_add_user"
+            android:icon="@drawable/ic_add_user"
+            android:title="@string/add_user" />
+
+        <item
+            android:id="@+id/nav_payment_request"
+            android:icon="@drawable/ic_payment_on_black_24dp"
+            android:title="@string/payment_request" />
+
+        <item
+            android:id="@+id/nav_update_data"
+            android:icon="@drawable/ic_update_button"
+            android:title="@string/update_data" />
+
+        <item
+            android:id="@+id/nav_ChangePassword"
+            android:icon="@drawable/ic_menu_change_password"
+            android:title="@string/change_password" />
+
+        <item
+            android:id="@+id/nav_dmt_transaction_list"
+            android:icon="@drawable/ic_menu_rec_trans"
+            android:title="DMT Transaction List"/>
+
+        <item
+            android:id="@+id/nav_ParentUser"
+            android:icon="@drawable/ic_person"
+            android:title="@string/parent_user" />
+
+        <item
+            android:id="@+id/nav_UserList"
+            android:icon="@drawable/ic_person"
+            android:title="@string/list_users" />
+
+        <item
+            android:id="@+id/nav_Notification"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/notification"
+            app:actionLayout="@layout/badge_menu_item_view" />
+
+        <item
+            android:id="@+id/nav_Share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/share" />
+
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/log_out" />
+    </group>
+
+</menu>

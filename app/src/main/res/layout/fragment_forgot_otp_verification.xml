@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/signup_content_box_margin"
+        android:background="@color/colorLayoutBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/otp_verification_content_box_top_bottom_padding"
+        android:paddingLeft="@dimen/signup_content_box_padding"
+        android:paddingRight="@dimen/signup_content_box_padding"
+        android:paddingTop="@dimen/otp_verification_content_box_top_bottom_padding">
+
+
+        <EditText
+            android:id="@+id/otp_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_bg"
+            android:gravity="center_vertical"
+            android:hint="@string/str_otp"
+            android:inputType="number"
+            android:maxLength="6"
+            android:imeOptions="actionDone"
+            android:paddingBottom="@dimen/signup_text_field_bottom_padding"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="@dimen/content_text_size" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/verify_otp_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/signup_content_box_margin"
+        android:layout_marginRight="@dimen/signup_content_box_margin"
+        android:layout_marginTop="@dimen/sign_up_button_top_margin"
+        android:background="@drawable/edt_login_btn"
+        android:text="@string/verify_otp"
+        android:textSize="@dimen/btn_content_text_small_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sign_up_button_top_margin"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/resend_otp_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/signup_content_box_padding"
+            android:layout_marginRight="@dimen/signup_content_box_padding"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:background="@drawable/edt_login_btn"
+            android:text="@string/resend_sms"
+            android:textSize="@dimen/btn_content_text_small_size" />
+
+        <TextView
+            android:id="@+id/timer_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/signup_content_box_padding"
+            android:layout_marginRight="@dimen/signup_content_box_padding"
+            android:layout_weight="1"
+            android:gravity="right|end"
+            android:text="@string/timer"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/content_text_small_size"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">Perfect Recharge Distributor</string>
+    <string name="app_name_onus">Onus Network Distributor</string>
+    <string name="app_name_omkar">Omkar Telecom Distributor</string>
+    <string name="app_name_advance_recharge">Advance Recharge Distributor</string>
+    <string name="app_name_advance_launch">Advance Distributor</string>
+    <string name="app_name_green_pearl_launch">Green Pearl Distributor</string>
+    <string name="app_name_green_pearl">Green Pearl Recharge Distributor</string>
+    <string name="app_name_sharp_recharge">Sharp Recharge Distributor</string>
+    <string name="app_name_sharp_recharge_launch">Sharp Distributor</string>
+    <string name="app_name_hr_travel_manipur">Hr Travel Manipur Distributor</string>
+    <string name="app_name_hr_travel_manipur_launch">Hr Travel Distributor</string>
+    <string name="app_name_mahadevpay">Mahadev Pay Distributor</string>
+    <string name="app_name_mahadevpay_launch">Mahadev Distributor</string>
+    <string name="app_name_demo">Demo Distributor</string>
+    <string name="app_name_swami">Swami Agencies Distributor</string>
+    <string name="app_name_swami_launch">Swami Distributor</string>
+    <string name="app_name_sabhajitcommunication">Sabhajit Communication Distributor</string>
+    <string name="app_name_sabhajitcommunication_launch">Sabhajit Distributor</string>
+    <string name="app_name_jugadicommunication">Jugadi Communication Distributor</string>
+    <string name="app_name_jugadicommunication_launch">Jugadi Distributor</string>
+    <string name="app_name_pocketbox">Pocketbox Distributor</string>
+    <string name="app_name_expertrecharge">Expert Recharge Distributor</string>
+    <string name="app_name_expertrecharge_launch">Expert Distributor</string>
+    <string name="app_name_saranyarecharges">Saranya Recharges Distributor</string>
+    <string name="app_name_saranyarecharges_launch">Saranya Distributor</string>
+    <string name="app_name_zulanrecharge">Zulan Recharge Distributor</string>
+    <string name="app_name_zulanrecharge_launch">Zulan Distributor</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="str_user_name">User Name</string>
+    <string name="str_pwd">Password</string>
+    <string name="str_login">Log IN</string>
+    <string name="str_remember_me">Remember Me</string>
+    <string name="str_forgot_password"><u>Forgot Password</u></string>
+    <string name="str_recharge">Add Balance</string>
+    <string name="str_trans_search">Cash Summary</string>
+    <string name="str_logout">Log Out</string>
+    <string name="str_notification">Notification</string>
+    <string name="str_amount">Amount</string>
+    <string name="str_search">Search</string>
+    <string name="str_email_or_uname">Email or Username or Mobile No</string>
+    <string name="str_otp">OTP</string>
+    <string name="amount_format">Amount: %1$s</string>
+    <string name="currency_format">\u20B9 %1$s</string>
+
+    <string name="str_change_password">Change Password</string>
+    <string name="str_old_password">Old Password</string>
+    <string name="str_new_password">New Password</string>
+    <string name="str_confirm_password">Confirm Password</string>
+    <string name="register_app">Register App</string>
+    <string name="register_app_title">Register App Distributor</string>
+    <string name="verify_otp">Verify OTP</string>
+
+    <string name="message_enter_username">Please enter Email id or Username or Mobile No</string>
+    <string name="error">Error</string>
+    <string name="message_no_intenet">Please check your internet access</string>
+    <string name="ok">Ok</string>
+    <string name="exception_message_generic">There was an application error</string>
+    <string name="info">Info!</string>
+    <string name="resend_sms">Resend SMS</string>
+    <string name="timer">Timer</string>
+    <string name="enter_opt">Enter OTP</string>
+    <string name="enter_user_name">Please enter Username</string>
+    <string name="enter_password">Please enter Password</string>
+    <string name="remember_password_confirm_prompt_msg">Are you sure want to have %1$s remember your password ? This will significantly decrease the security of your %2$s Account !</string>
+    <string name="app_installed_success">App installed successfully</string>
+    <string name="list_users">List Users</string>
+    <string name="update_data">Update Data</string>
+    <string name="home">Home</string>
+    <string name="add_balance">Add Balance</string>
+    <string name="cash_summary">Cash Summary</string>
+    <string name="add_user">Add User</string>
+    <string name="payment_request">Payment Request</string>
+    <string name="payment_request_detail">Payment Request Detail</string>
+    <string name="purchase_user">Purchase User</string>
+    <string name="share">Share</string>
+
+
+    <string name="change_password">Change Password</string>
+    <string name="notification">Notification</string>
+    <string name="log_out">Log Out</string>
+    <string name="parent_user">Parent User</string>
+
+    <string name="alert_servicer_down">No Data Found</string>
+    <string name="Rs">\u20B9</string>
+    <string name="str_order_id1">043321</string>
+
+
+    <string name="ac_ledger">Account Ledger</string>
+    <string name="credit_debit_note">Credit Debit Note</string>
+
+    <string name="firm_name_mobile_no">Firm name / Mobile No</string>
+    <string name="username">Username</string>
+    <string name="firm_name">Firm Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="proceed_to_add_balance">PROCEED TO ADD BALANCE</string>
+    <string name="enter_amount">Please enter amount</string>
+    <string name="error_message_add_balance_more_than_current">You can not add amount more than your balance</string>
+    <string name="enter_valid_amount">Please add valid amount</string>
+    <string name="done">Done</string>
+    <string name="self">Self</string>
+    <!--<string name="reseller">Reseller</string>-->
+    <string name="reseller">ResellerNew</string>
+    <!--<string name="dealer">Dealer</string>-->
+    <string name="dealer">DealerNew</string>
+    <!--<string name="retailer">Retailer</string>-->
+    <string name="retailer">RetailerNew</string>
+    <string name="result">Result</string>
+    <string name="reset">Reset</string>
+    <string name="all">All</string>
+    <string name="message_select_same_months">Please select dates of same month</string>
+    <string name="from_label">From :</string>
+    <string name="to_label">To :</string>
+    <string name="user_type_format">User Type : %1$s</string>
+    <string name="user_all">Users : All</string>
+    <string name="user_self">User : Self</string>
+    <string name="user_format">User : %1$s</string>
+    <string name="updating">Updating...</string>
+    <string name="update_app_data">Update App Data</string>
+    <string name="back_to_home">Back To Home</string>
+    <string name="last_update_format">Last update : %1$s</string>
+    <string name="status_updating">Updating\n\n1/1) Child Users (Processing)</string>
+    <string name="status_update_completed">Updating\n\n1/1) Child Users (Done)\n\nDone.</string>
+    <string name="status_update_failed_format">Error\n\n%1$s</string>
+    <string name="update">Update</string>
+    <string name="data_update_success">Data updated successfully</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="enter_confirm_password">Enter confirm password</string>
+    <string name="password_not_match">Password not match</string>
+    <string name="password_change_success_message">Your password has been changed successfully.</string>
+    <string name="firm_name_format">Firm Name : %1$s</string>
+    <string name="name_format">Name : %1$s</string>
+    <string name="user_name_format">User Name : %1$s</string>
+    <string name="mobile_number_format">Mobile No : %1$s</string>
+    <string name="number_format">Number : %1$s</string>
+    <string name="status_format">Status : %1$s</string>
+    <string name="company_format">Company : %1$s</string>
+    <string name="product_format">Product : %1$s</string>
+    <string name="date_time_format">Date Time : %1$s</string>
+    <string name="read_format">Read : %1$s</string>
+    <string name="max_format">Max : %1$s</string>
+    <string name="max_format_with_amount">Max : \u20B9 %1$s</string>
+    <string name="min_format">Min : %1$s</string>
+    <string name="sort_format">Sort : %1$s</string>
+    <string name="min_format_with_amount">Min : \u20B9 %1$s</string>
+    <string name="transaction_id_format">Transaction Id : %1$s</string>
+    <string name="balance_format_format">Final Balance : %1$s</string>
+    <string name="remaining_balance_format_format">Remaining Balance : %1$s</string>
+    <string name="no_new_message">No new message</string>
+    <string name="min_amount">Min Amount</string>
+    <string name="max_amount">Max Amount</string>
+    <string name="sorting">Sorting</string>
+    <string name="invalid_access_token">Invalid access token</string>
+    <string name="invalid_token_message">Invalid access token, Please logout and login again</string>
+    <string name="login_error">Error in login</string>
+    <string name="login_attempts_plural">login attempts.</string>
+    <string name="login_attempts_single">login attempt.</string>
+    <string name="invalid_error_remaining">Invalid details\nYou are left</string>
+    <string name="max_login_retry_message">You have attempted more than %d times</string>
+    <string name="invalid_username">Invalid username</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="invalid_email_address">Invalid email address</string>
+    <string name="error_message_enter_different_new_password">Please enter different password than old password</string>
+    <string name="recharge_notification">Recharge Notification</string>
+    <string name="exception_message_username_not_exist">Username not exists</string>
+    <string name="exception_message_invalid_otp">Invalid OTP</string>
+    <string name="exception_message_invalid_username_password">Invalid Username or Password</string>
+    <string name="exception_message_invalid_access_token">Invalid Access token, Please login again</string>
+    <string name="exception_message_internal_server_error">Internal server error</string>
+    <string name="confirm_logout_message">Are you sure you want to log out?</string>
+
+    <!-- Share App -->
+    <string name="share_app_text">\nLet me recommend you this application\n\n</string>
+
+    <!-- Credit Debit Note -->
+    <string name="crdrType">Type</string>
+    <string name="crdrWallet">Wallet</string>
+    <string name="crdrAmount">Amount</string>
+    <string name="crdrRemarks">Remarks</string>
+    <string name="crdrSubmit">Submit</string>
+
+    <!-- GPS Tracker -->
+    <string name="gpsAlertTitle">GPS Alert!</string>
+    <string name="gpsAlertMessage">GPS tracker not enabled. Enabled Location from Settings. </string>
+    <string name="gpsAlertSettings">Settings</string>
+
+    <!-- DMT Transaction List -->
+    <string name="dmt_paymentlist_sender_name">Sender</string>
+    <string name="dmt_paymentlist_benefitiary_name">Beneficiary</string>
+    <string name="dmt_paymentlist_bank">Bank</string>
+
+    <!-- Payment Request -->
+    <string name="payment_request_wallet_type">Wallet Type</string>
+    <string name="payment_request_request_amount">Request Amount *</string>
+    <string name="payment_request_deposit_bank">Deposit Bank</string>
+    <string name="payment_request_payment_date">Payment Date *</string>
+    <string name="payment_request_payment_method">Payment Method</string>
+    <string name="payment_request_bank">Bank</string>
+    <string name="payment_request_cheque_no">Cheque No. *</string>
+    <string name="payment_request_branch">Branch *</string>
+    <string name="payment_request_remarks">Remarks *</string>
+    <string name="payment_request_transaction_id">Transaction Id *</string>
+    <string name="payment_request_add_payment_title">Add Payment Request</string>
+    <string name="payment_request_deposit_bank_title">Deposit Bank Details</string>
+
+    <!-- Payment Detail -->
+    <string name="recharge_status_recharge_again">Recharge Again</string>
+    <string name="recharge_status_download">Download Receipt</string>
+    <string name="recharge_status_help">Help</string>
+    <string name="recharge_status_details">Payment Details</string>
+    <string name="recharge_status_wallet">Wallet</string>
+    <string name="recharge_status_complain">Complain for payment</string>
+    <string name="complain_thread_title">Thread of Complain</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

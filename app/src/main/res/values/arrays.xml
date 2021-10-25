@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="min_amount">
+        <item>ALL</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+    <integer-array name="min_amount_value">
+        <item>500</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </integer-array>
+    <string-array name="max_amount">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>8000</item>
+        <item>16000</item>
+        <item>32000</item>
+        <item>64000</item>
+        <item>100000</item>
+        <item>ALL</item>
+    </string-array>
+    <integer-array name="max_amount_value">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>8000</item>
+        <item>16000</item>
+        <item>32000</item>
+        <item>64000</item>
+        <item>100000</item>
+        <item>100000</item>
+    </integer-array>
+    <string-array name="sorting">
+        <item>ALL</item>
+        <item>Low to High</item>
+        <item>High to Low</item>
+    </string-array>
+</resources>

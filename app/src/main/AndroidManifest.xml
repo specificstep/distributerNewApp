@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="specificstep.com"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--
+     android:largeHeap="true"
+    android:hardwareAccelerated="false"
+    -->
+    <application
+        android:name=".GlobalClasses.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_zulan"
+        android:label="@string/app_name_zulanrecharge_launch"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:usesCleartextTraffic="true">
+        <service android:name=".GlobalClasses.GPSTracker"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="072f54b9d90c2434fccaaca98294ac7dcc40ee44" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_act_bar" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <!-- Defining Services -->
+        <service android:name=".ui.firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".ui.firebase.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".ui.signup.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.New" />
+        <activity
+            android:name=".ui.otpVerification.OtpVerificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.New" />
+        <activity
+            android:name=".ui.forgotOtpVarification.ForgotOtpVarificationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.New" />
+
+        <activity
+            android:name=".ui.forgotPassword.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.New" />
+
+        <activity
+            android:name=".ui.signIn.SignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.New" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.New">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.dashboard.DashboardActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.New" />
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName="specificstep.com.ui.dashboard.DashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.New"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="specificstep.com.ui.dashboard.DashboardActivity" />
+        </activity>
+
+        <uses-library android:name="org.apache.http.legacy"
+            android:required="false"/>
+
+    </application>
+
+</manifest>

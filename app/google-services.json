@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "825505118981",
+    "firebase_url": "https://zulan-recharge-retailer.firebaseio.com",
+    "project_id": "zulan-recharge-retailer",
+    "storage_bucket": "zulan-recharge-retailer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825505118981:android:504b913c04c83b21",
+        "android_client_info": {
+          "package_name": "specificstep.com.zulanrecharge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825505118981-u88h3siq1gasar0d8qhveqq6rfe73qkl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "specificstep.com.zulanrecharge",
+            "certificate_hash": "a1698a39339ccf74a312602e8d6148d07c0dfcbb"
+          }
+        },
+        {
+          "client_id": "825505118981-brp71hb65qtp0o81e3iuaspu11bsug6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSs6BkBuDZYL9FLwJS9Kup0b5vKLJdUh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825505118981-brp71hb65qtp0o81e3iuaspu11bsug6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825505118981:android:ed49a61cf48883168c956c",
+        "android_client_info": {
+          "package_name": "specificstep.com.zulanrecharge_dist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825505118981-moiarui9rjrrumouscnbbic2he8ihbpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "specificstep.com.zulanrecharge_dist",
+            "certificate_hash": "a1698a39339ccf74a312602e8d6148d07c0dfcbb"
+          }
+        },
+        {
+          "client_id": "825505118981-brp71hb65qtp0o81e3iuaspu11bsug6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSs6BkBuDZYL9FLwJS9Kup0b5vKLJdUh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825505118981-brp71hb65qtp0o81e3iuaspu11bsug6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
